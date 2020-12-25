@@ -3,7 +3,7 @@ const DD ='特别版QQ阅读APP';
 const $ = new Env(DD);
 
 
-const logs=0;//设置0关闭日志,1开启日志
+const logs=1;//设置0关闭日志,1开启日志
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 const x = process.env.QQREAD_COOKIE
