@@ -1,9 +1,9 @@
-name: QQ阅读APP
+name: 特别版QQ阅读APP
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* */10 * * *"
+    - cron: "*/10 * * * *"
   watch:
     types: [started]
 
@@ -20,7 +20,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: "运行【QQ阅读】"
+      - name: "运行【特别版QQ阅读APP】"
         run: |
           node qqreadapp.js
         env:
