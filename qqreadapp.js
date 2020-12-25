@@ -1,4 +1,4 @@
-const DD ='QQ阅读APP';
+const DD ='特别版QQ阅读APP';
 
 const $ = new Env(DD);
 
